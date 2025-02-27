@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для Лёшечки ^_^</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        /* Стили для изображения GIF */
+        .gif {
+        width: 170px; 
+            height: auto; 
+            position: absolute; 
+            bottom: 100px; 
+            left: 80px;
+            margin: 0; 
+        }
+.gif2 {
+    width: 170px; 
+    height: auto; 
+    position: absolute; 
+    bottom: 100px; /* Такая же высота, чтобы были на одном уровне */
+    left: 1200px; /* Сдвинута правее от первой */
+}
+
+.image {
+    width: 400px; /* Измени размер, если нужно */
+    height: auto; 
+    position: absolute; 
+    bottom: 50px; /* Держим внизу */
+    left: 550px; /* Сдвигаем дальше вправо */
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>100 причин почему я тебя люблю, Лёшечка💓!</h1>
+        <div class="jar" onclick="showReason()">
+            <img src="сердечко-removebg-preview.png" alt="сердечко">
+        </div>
+        <p id="reason">Нажми на сердечко, чтобы узнать причину!)</p>
+    </div>
+    <!-- Здесь добавляем GIF внизу слева -->
+    <img src="гифказайчик.gif" alt="зайчуша" class="gif">
+    <img src="котики.gif" alt="котики" class="gif2">
+<img src="котикиобнимашки.jpg" alt="картинка" class="image">
+    <script src="script.js"></script>
+</body>
+</html>
